@@ -4,7 +4,7 @@
   margin-bottom: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #464646;
+  background-color: #373737;
   width: 112%;
 }
 
@@ -108,7 +108,7 @@ body {
   margin-right: 3%;
   padding: 20px;
   border: 1px solid #f4f2f2;
-  background-color: #464646;
+  background-color: #282727;
   border: 1px solid #f4f2f2;
   border-radius: 23px;
 }
@@ -175,7 +175,7 @@ h2 {
   color: #fbfafa;
 }
 .green-circle {
-  background-color: #4CAF50; /* Green color */
+  background-color: rgb(7, 142, 7);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -204,11 +204,10 @@ h2 {
   font-size: 37px;
   animation: snake-motion 2s linear infinite;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 790;
   margin-top: 8px;
   margin-left: 1px;
-  color: rgb(38, 202, 38);
+  color: rgb(9, 156, 9);
 }
 .animation-container {
   display: flex;
