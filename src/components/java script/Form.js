@@ -7,7 +7,6 @@ export default function Form() {
   const [personName, setPersonName] = useState('');
   const [hostel, setHostel] = useState('');
   const [Mess, setMess] = useState('');
-  const [userImage, setUserImage] = useState(null);
   const [error, setError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
