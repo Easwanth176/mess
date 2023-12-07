@@ -26,6 +26,11 @@ h3 {
   font-size: 24px;
   color: #fbfafa;
 }
+.meal-approved .header h2 {
+  font-size: 30px;
+  color: #fbfafa;
+  margin-left: 1px;
+}
 
 .meal-approved .header p {
   font-size: 16px;
@@ -37,7 +42,7 @@ h3 {
 }
 
 .meal-approved .body p {
-  font-size: 14px;
+  font-size: 25px;
   display: flex;
   justify-content: space-between;
   color: #fbfafa;
@@ -81,7 +86,6 @@ body {
   display: flex;
   justify-content: space-between;
   color: #fbfafa;
-  margin-top: -1px;
 }
 
 .meal-approved .body .info .verification-code {
