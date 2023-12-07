@@ -16,7 +16,7 @@ export default function Home() {
       registrationNumber,
       name: personName,
       hostel,
-      image: 'base64-encoded-image-data', // Replace with actual base64-encoded image data
+      image: 'base64-encoded-image-data', 
     };
 
     setUserData(simulatedUserData);
@@ -52,13 +52,13 @@ export default function Home() {
   };
 
   const generateRandomCode = () => {
-    const code = Math.floor(100000 + Math.random() * 900000); // Random 6-digit number
+    const code = Math.floor(100000 + Math.random() * 900000); 
     setVerificationCode(code.toString());
   };
 
   useEffect(() => {
     generateRandomCode();
-  }, []); // Run only once on component mount
+  }, []);
 
   return (
     <div className={`base ${darkMode ? 'dark' : 'light'}`}>

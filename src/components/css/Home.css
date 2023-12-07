@@ -156,6 +156,11 @@ body {
   cursor: pointer;
 }
 
+h7
+{
+  font-size: 20px;
+}
+
 p,
 h1,
 h2,
@@ -272,3 +277,12 @@ label
   animation-delay: 0.3s;
 }
 
+button
+{
+  font-size: large;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 1px;
+  padding-top: 8px;
+}
