@@ -63,12 +63,11 @@ export default function Form() {
                   value={hostel}
                   onChange={(e) => setHostel(e.target.value)}
                 >
-                  <option value="Boys Hostel 1">Boys Hostel 1</option>
-                  <option value="Boys Hostel 2">Boys Hostel 2</option>
-                  <option value="Boys Hostel 3">Boys Hostel 3</option>
-                  <option value="Boys Hostel 4">Boys Hostel 4</option>
-                  <option value="Boys Hostel 5">Boys Hostel 5</option>
-                  <option value="Boys Hostel 6">Boys Hostel 6</option>
+                  <option value="Mess BH-1">Boys Hostel 1</option>
+                  <option value="Mess BH-2">Boys Hostel 2</option>
+                  <option value="Mess BH-3">Boys Hostel 3</option>
+                  <option value="Mess BH-4">Boys Hostel 4</option>
+                  <option value="Mess BH-5">Boys Hostel 5</option>
                 </select>
               </div>
               <div className="form-group">
