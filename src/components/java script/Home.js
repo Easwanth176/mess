@@ -16,7 +16,7 @@ export default function Home() {
       registrationNumber,
       name: personName,
       hostel,
-      image: 'base64-encoded-image-data', 
+      image: 'base64-encoded-image-data',
     };
 
     setUserData(simulatedUserData);
@@ -52,7 +52,7 @@ export default function Home() {
   };
 
   const generateRandomCode = () => {
-    const code = Math.floor(100000 + Math.random() * 900000); 
+    const code = Math.floor(100000 + Math.random() * 900000);
     setVerificationCode(code.toString());
   };
 
@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <div className={`base ${darkMode ? 'dark' : 'light'}`}>
       <button className={`dark-mode-toggle ${selectedFile ? 'hidden' : ''}`} onClick={toggleDarkMode}>
-        {darkMode ? 'X' : 'X'}
+        {darkMode ? 'O' : 'X'}
       </button>
       <div>
         <div className="hname">
@@ -116,25 +116,27 @@ export default function Home() {
           </div>
           <h3>Meal Approved</h3>
           <div className="sqaure">
-            <div className="border">
               <div className="animation-container">
                 <div className="green-circle">
-                  <div className="tick">&#10004;</div>
+                <div className="tick">&#10004;</div>
+
                 </div>
-                <div className="letter">A</div>
-                <div className="letter">C</div>
-                <div className="letter">C</div>
-                <div className="letter">E</div>
-                <div className="letter">P</div>
-                <div className="letter">T</div>
-                <div className="letter">E</div>
-                <div className="letter">D</div>
+                <div className="letter-conatiner">
+                  <div className="a">A</div>
+                  <div className="b">C</div>
+                  <div className="c">C</div>
+                  <div className="d">E</div>
+                  <div className="d">P</div>
+                  <div className="c">T</div>
+                  <div className="b">E</div>
+                  <div className="a">D</div>
               </div>
             </div>
           </div>
+          <div className="line"></div>
           <div className="body">
             <div className="info">
-              <p>Date: <div> {currentDate}</div></p>
+              <p>Date: <div>{currentDate}</div></p>
               <div className="hr-line"></div>
               <p>Time: <div>{currentTime}</div> </p>
               <p className="verification-code">Verification Code: <div>{verificationCode}</div></p>
